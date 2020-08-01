@@ -1,0 +1,413 @@
+{
+  "id": "0d517f38-fe7d-4c96-81ca-0ab13150308c",
+  "version": "2.0",
+  "name": "ŚwiętyAndrzejTest",
+  "url": "http://andrzej-torun.pl",
+  "tests": [{
+    "id": "ca8c04fd-f76b-4071-835b-ce27f835ce3c",
+    "name": "NavigationOnPage",
+    "commands": [{
+      "id": "7b669537-13fe-4fa2-a569-e6a34b51e677",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f48b903a-14fd-4b76-8564-3f710013185a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ada4d80-538c-44a8-9d53-1440b9a46947",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Aktualności",
+      "targets": [
+        ["linkText=Aktualności", "linkText"],
+        ["css=nav > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Aktualności')]", "xpath:link"],
+        ["xpath=//div[@id='all']/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Artykuly/Temat/1')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Aktualności')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbe0ed91-c4c0-4679-b96b-d79564b15f47",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Aktualności"
+    }, {
+      "id": "0ef9e631-b601-49f2-b349-475a179f3a43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Msze święte",
+      "targets": [
+        ["linkText=Msze święte", "linkText"],
+        ["css=nav > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Msze święte')]", "xpath:link"],
+        ["xpath=//div[@id='all']/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/msze_swiete')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Msze święte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fea18d69-35ba-40d3-b319-c9b864a37adc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ogłoszenia parafialne",
+      "targets": [
+        ["linkText=Ogłoszenia parafialne", "linkText"],
+        ["css=a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ogłoszenia parafialne')]", "xpath:link"],
+        ["xpath=//div[@id='all']/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ogloszenia_parafialne')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ogłoszenia parafialne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f4703ba-de62-4fc3-a626-f159f7a8e253",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intencje",
+      "targets": [
+        ["linkText=Intencje", "linkText"],
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Intencje')]", "xpath:link"],
+        ["xpath=//div[@id='all']/nav/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/intencje_mszalne')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Intencje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b961066c-9f8c-405a-8556-05d718bcf193",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kontakt",
+      "targets": [
+        ["linkText=Kontakt", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Kontakt')]", "xpath:link"],
+        ["xpath=//div[@id='all']/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kontakt')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Kontakt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b61b2a8b-fb92-43b7-aa32-9e2afa0a5f21",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Centrum Aktywności Lokalnej",
+      "targets": [
+        ["linkText=Centrum Aktywności Lokalnej", "linkText"],
+        ["css=ul:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Centrum Aktywności Lokalnej')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cal')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Centrum Aktywności Lokalnej')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c4ea20-d865-44ce-9266-f5028b11c608",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Biuro parafialne",
+      "targets": [
+        ["linkText=Biuro parafialne", "linkText"],
+        ["css=ul:nth-child(2) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Biuro parafialne')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/biuro_parafialne')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Biuro parafialne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9cf4b62-7ae9-428e-94b2-75a74e451120",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Historia parafii",
+      "targets": [
+        ["linkText=Historia parafii", "linkText"],
+        ["css=ul:nth-child(2) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Historia parafii')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/historia_parafii')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Historia parafii')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13240cde-80bb-434b-8505-f3b26119a1ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rady parafialne",
+      "targets": [
+        ["linkText=Rady parafialne", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Rady parafialne')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rady_parafialne')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rady parafialne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd2e4cc3-5fe1-4d9c-b947-9c18d2c38a1a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Patron",
+      "targets": [
+        ["linkText=Patron", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Patron')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/patron')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Patron')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88a4422c-0461-4051-913f-6f361bf8d659",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wspólnoty",
+      "targets": [
+        ["linkText=Wspólnoty", "linkText"],
+        ["css=li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wspólnoty')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wspolnoty')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wspólnoty')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec1370b8-c406-4a30-9ede-a161fcd064f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sakramenty",
+      "targets": [
+        ["linkText=Sakramenty", "linkText"],
+        ["css=li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sakramenty')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sakramenty')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sakramenty')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "091ef7c5-d9c0-4c12-a4d6-05c5ee91e2d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Duszpasterze",
+      "targets": [
+        ["linkText=Duszpasterze", "linkText"],
+        ["css=li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Duszpasterze')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/duszpasterze')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Duszpasterze')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31c94fda-c323-4805-8a1a-1ba3c9e88bba",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Duszpasterze",
+      "targets": [
+        ["linkText=Duszpasterze", "linkText"],
+        ["css=li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Duszpasterze')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/duszpasterze')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Duszpasterze')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdadc637-0fce-4a9e-a57e-22a486e7f516",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Katechezy",
+      "targets": [
+        ["linkText=Katechezy", "linkText"],
+        ["css=li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Katechezy')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Artykuly/Temat/2')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Katechezy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee60ca89-4a78-4a15-9196-a26f7aba2c1a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kącik dla dzieci",
+      "targets": [
+        ["linkText=Kącik dla dzieci", "linkText"],
+        ["css=li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kącik dla dzieci')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Artykuly/Temat/3')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kącik dla dzieci')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10437d1-ff5b-4508-bc03-50ed4f7ab9e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dla młodzieży",
+      "targets": [
+        ["linkText=Dla młodzieży", "linkText"],
+        ["css=li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dla młodzieży')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Artykuly/Temat/4')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dla młodzieży')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "382857e9-34d7-4721-b180-b32b5e257974",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Seniorzy",
+      "targets": [
+        ["linkText=Seniorzy", "linkText"],
+        ["css=li:nth-child(12) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Seniorzy')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[12]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Artykuly/Temat/5')]", "xpath:href"],
+        ["xpath=//li[12]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Seniorzy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c4d8f92-d4b3-4342-81c8-429facb78239",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Małżonkowie",
+      "targets": [
+        ["linkText=Małżonkowie", "linkText"],
+        ["css=li:nth-child(13) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Małżonkowie')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[13]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Artykuly/Temat/6')]", "xpath:href"],
+        ["xpath=//li[13]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Małżonkowie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afa6203f-9964-4190-ba03-b53560e18627",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Świątynia i dom parafialny",
+      "targets": [
+        ["linkText=Świątynia i dom parafialny", "linkText"],
+        ["css=ul:nth-child(4) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Świątynia i dom parafialny')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/budowa_swiatynia')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Świątynia i dom parafialny')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22e57989-cbe8-47a9-a13a-94699636862a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Realizacja budowy",
+      "targets": [
+        ["linkText=Realizacja budowy", "linkText"],
+        ["css=ul:nth-child(4) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Realizacja budowy')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/budowa_kosciola')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Realizacja budowy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a192f13-3c93-4298-a865-cc8df86a44c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wsparcie naszej budowy",
+      "targets": [
+        ["linkText=Wsparcie naszej budowy", "linkText"],
+        ["css=ul:nth-child(4) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wsparcie naszej budowy')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/budowa_wsparcie')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wsparcie naszej budowy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cac667fd-319b-45f8-a52e-fc93096e5f52",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Wsparcie naszej budowy",
+      "targets": [
+        ["linkText=Wsparcie naszej budowy", "linkText"],
+        ["css=ul:nth-child(4) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wsparcie naszej budowy')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/budowa_wsparcie')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wsparcie naszej budowy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76cfcc40-8033-443b-a554-039469d2ffe9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fL img",
+      "targets": [
+        ["css=.fL img", "css:finder"],
+        ["xpath=//img[@alt='Parafia św. Andrzeja w Toruniu']", "xpath:img"],
+        ["xpath=//div[@id='all']/nav/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd67c598-d2ce-4a62-a787-c2372a1f1f40",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[1]/header/div/h1[2]",
+      "targets": [],
+      "value": "ŚWIĘTEGO ANDRZEJA APOSTOŁA W TORUNIU"
+    }, {
+      "id": "2e6bd86b-1296-449f-a60b-b068af3a8116",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "66779b29-3a9a-4eae-a2f6-75bfc3488445",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ca8c04fd-f76b-4071-835b-ce27f835ce3c"]
+  }],
+  "urls": ["http://andrzej-torun.pl/"],
+  "plugins": []
+}
