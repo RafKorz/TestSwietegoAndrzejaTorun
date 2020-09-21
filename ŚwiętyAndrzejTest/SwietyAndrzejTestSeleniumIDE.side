@@ -5,7 +5,7 @@
   "url": "http://andrzej-torun.pl",
   "tests": [{
     "id": "ca8c04fd-f76b-4071-835b-ce27f835ce3c",
-    "name": "NavigationOnPage",
+    "name": "A NavigationOnPage",
     "commands": [{
       "id": "7b669537-13fe-4fa2-a569-e6a34b51e677",
       "comment": "",
@@ -393,6 +393,287 @@
       "value": "ŚWIĘTEGO ANDRZEJA APOSTOŁA W TORUNIU"
     }, {
       "id": "2e6bd86b-1296-449f-a60b-b068af3a8116",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "771e2907-1114-49fd-8cb2-79ba2e2fb395",
+    "name": "B ParishOfficeTest",
+    "commands": [{
+      "id": "ab210393-ccc9-42df-a7ce-620c13f81846",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1c3052e-433a-4680-b65c-0f6a32786386",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd4301d5-2dd8-4019-a326-182d53b8b343",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Biuro parafialne",
+      "targets": [
+        ["linkText=Biuro parafialne", "linkText"],
+        ["css=ul:nth-child(2) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Biuro parafialne')]", "xpath:link"],
+        ["xpath=//section[@id='prawa']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/biuro_parafialne')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Biuro parafialne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "805c8e89-d1cd-4953-8081-dfc4d9724afd",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/h2",
+      "targets": [],
+      "value": "»   Biuro Parafialne"
+    }, {
+      "id": "9222b468-6461-497e-a800-0ddc11a4d545",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/p[1]",
+      "targets": [],
+      "value": "Biuro parafialne czynne:"
+    }, {
+      "id": "2b69dcaa-d5f5-4184-9527-6a5fdcb654d5",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/table/tbody/tr[1]/td[1]",
+      "targets": [],
+      "value": "Poniedziałek"
+    }, {
+      "id": "aab4e03b-1560-496e-a5ef-954a5ca6b4cc",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/table/tbody/tr[1]/td[2]",
+      "targets": [],
+      "value": "19.00 - 20.00"
+    }, {
+      "id": "a52e7ed4-bc54-4f29-aea4-c75beece1b5b",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/table/tbody/tr[2]/td[1]",
+      "targets": [],
+      "value": "Wtorek"
+    }, {
+      "id": "fb305599-0011-41e9-a4d4-c453a1ea5e68",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/table/tbody/tr[2]/td[2]",
+      "targets": [],
+      "value": "19.00 - 20.00"
+    }, {
+      "id": "3b064318-4bce-42e5-aeea-670c8bb0d017",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/table/tbody/tr[3]/td[1]",
+      "targets": [],
+      "value": "Czwartek"
+    }, {
+      "id": "2876a6e0-8b5a-45e6-af0b-1e34850bfc55",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/table/tbody/tr[3]/td[2]",
+      "targets": [],
+      "value": "16.00 - 16.45"
+    }, {
+      "id": "f3e827f0-57d4-4e16-9a53-02fcff404390",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/p[2]/strong",
+      "targets": [],
+      "value": "725 481 830"
+    }, {
+      "id": "e6352b72-2da5-4560-9a69-eb1a25ed82b0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5c1365c9-eb0f-476d-8850-c6bdb07e7458",
+    "name": "C HolyMassesTest",
+    "commands": [{
+      "id": "b4b854cc-c3e1-46aa-a74f-c30d61363134",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f3a1e58-20e2-490f-873b-38cac40c357e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89d2f1fb-8881-46ac-b47e-0aff007e9ea7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Msze święte",
+      "targets": [
+        ["linkText=Msze święte", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Msze święte')]", "xpath:link"],
+        ["xpath=//div[@id='all']/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/msze_swiete')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Msze święte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0e03c32-a789-4898-876d-82c813f19819",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/h2",
+      "targets": [],
+      "value": "»   Msze Święte"
+    }, {
+      "id": "2bef99ed-f345-4e49-bec1-a04d1476e500",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[1]/h2",
+      "targets": [],
+      "value": "Niedziele i uroczystości"
+    }, {
+      "id": "022ff83b-ba98-4aa2-9c21-9b5cf1799ae2",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[1]/ul/li[1]",
+      "targets": [],
+      "value": "8:00,"
+    }, {
+      "id": "ad989a01-45f1-4bbd-b540-ec6c3ad1a05a",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[1]/ul/li[2]",
+      "targets": [],
+      "value": "10:00,"
+    }, {
+      "id": "44f22c80-21b7-424e-a205-74201137c404",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[1]/ul/li[3]",
+      "targets": [],
+      "value": "11:30 (dla dzieci),"
+    }, {
+      "id": "e4b7faac-eae7-4223-91ac-f64ca570688b",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[1]/ul/li[4]",
+      "targets": [],
+      "value": "17:00,"
+    }, {
+      "id": "b4747d93-9c58-4b5d-b012-85ff8c56015a",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[1]/ul/li[5]",
+      "targets": [],
+      "value": "18:00 (dla młodzieży),"
+    }, {
+      "id": "267c0901-7ee6-40f7-b73a-56432bb84c1e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[2]/h2",
+      "targets": [],
+      "value": "Dni powszednie i święta"
+    }, {
+      "id": "22232206-7159-454d-808a-225ef20d9b80",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[2]/ul/li[1]",
+      "targets": [],
+      "value": "17:00"
+    }, {
+      "id": "81d6a040-807d-4ef8-a50f-b38215ec23c9",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[2]/ul/li[2]",
+      "targets": [],
+      "value": "18:00"
+    }, {
+      "id": "8ff2343b-eac5-4584-8921-c256f15e7ad8",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[3]/h2",
+      "targets": [],
+      "value": "Nabożeństwa okresowe (maj, czerwiec, październik) po Mszy św."
+    }, {
+      "id": "72ebb72b-b7ed-4b09-bcac-285e638566c8",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div/ul/li[3]/ul/li",
+      "targets": [],
+      "value": "17:00"
+    }, {
+      "id": "ee6be673-2242-471f-a85a-2a6ea8d99c59",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "880eba86-4586-4b42-b06e-2f4ef06a4f1b",
+    "name": "D Contact",
+    "commands": [{
+      "id": "f4ee0ab9-207f-4a20-b97d-f25cf9f33043",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9c12c57-f1f1-4274-88e6-3fc0a601c311",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2efec868-2bd8-4050-acfa-2abbec148e59",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kontakt",
+      "targets": [
+        ["linkText=Kontakt", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Kontakt')]", "xpath:link"],
+        ["xpath=//div[@id='all']/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kontakt')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Kontakt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "149ce17b-ed38-447e-9e24-e69470d78e83",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"lewa\"]/div/h2",
+      "targets": [],
+      "value": "»   Parafia pw. Andrzeja Apostoła w Toruniu"
+    }, {
+      "id": "d4474c3f-0087-47b0-a472-4222fac62190",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//*[@id=\"lewa\"]/div/div",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7302619-fb7a-45cc-b126-5fb817503dd2",
       "comment": "",
       "command": "close",
       "target": "",
