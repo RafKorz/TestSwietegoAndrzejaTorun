@@ -58,6 +58,13 @@
       ],
       "value": ""
     }, {
+      "id": "31ae2aa4-78ff-4297-b611-0b7fd20f2d69",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Msze Święte"
+    }, {
       "id": "fea18d69-35ba-40d3-b319-c9b864a37adc",
       "comment": "",
       "command": "click",
@@ -72,6 +79,13 @@
         ["xpath=//a[contains(.,'Ogłoszenia parafialne')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "13b9071b-cf95-4c61-bf35-af0ce3775323",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Ogłoszenia Parafialne"
     }, {
       "id": "5f4703ba-de62-4fc3-a626-f159f7a8e253",
       "comment": "",
@@ -88,6 +102,13 @@
       ],
       "value": ""
     }, {
+      "id": "89e11726-00ce-407e-86b9-9af9dcf8cca7",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Intencje Mszalne"
+    }, {
       "id": "b961066c-9f8c-405a-8556-05d718bcf193",
       "comment": "",
       "command": "click",
@@ -102,6 +123,13 @@
         ["xpath=//a[contains(.,'Kontakt')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "3364b476-699e-48a1-ad57-65649b75cc55",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Parafia pw. Andrzeja Apostoła w Toruniu"
     }, {
       "id": "b61b2a8b-fb92-43b7-aa32-9e2afa0a5f21",
       "comment": "",
@@ -118,6 +146,13 @@
       ],
       "value": ""
     }, {
+      "id": "2d61569f-7854-4e20-9fe6-5632474a3a95",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Harmonogram zajęć Centrum Aktywności Lokalnej"
+    }, {
       "id": "50c4ea20-d865-44ce-9266-f5028b11c608",
       "comment": "",
       "command": "click",
@@ -132,6 +167,13 @@
         ["xpath=//a[contains(.,'Biuro parafialne')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "77ccdfb1-bcc3-4e4e-a94b-33ca652acf25",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Biuro Parafialne"
     }, {
       "id": "c9cf4b62-7ae9-428e-94b2-75a74e451120",
       "comment": "",
@@ -148,6 +190,13 @@
       ],
       "value": ""
     }, {
+      "id": "344a3330-3c36-47fe-80eb-5191f35adb04",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Historia Parafii"
+    }, {
       "id": "13240cde-80bb-434b-8505-f3b26119a1ce",
       "comment": "",
       "command": "click",
@@ -162,6 +211,13 @@
         ["xpath=//a[contains(.,'Rady parafialne')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "7707e8c2-f386-4262-9632-4b191c271e24",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Rady parafialne"
     }, {
       "id": "fd2e4cc3-5fe1-4d9c-b947-9c18d2c38a1a",
       "comment": "",
@@ -178,6 +234,13 @@
       ],
       "value": ""
     }, {
+      "id": "112e7b8d-172e-4d8c-a1ea-5732cce828e4",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Patron - św. Andrzej Apostoł"
+    }, {
       "id": "88a4422c-0461-4051-913f-6f361bf8d659",
       "comment": "",
       "command": "click",
@@ -192,6 +255,13 @@
         ["xpath=//a[contains(.,'Wspólnoty')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "784b5963-089b-4fca-93a0-2014c80df5c3",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Parafia zbudowana z różnorodnych wspólnot"
     }, {
       "id": "ec1370b8-c406-4a30-9ede-a161fcd064f8",
       "comment": "",
@@ -208,6 +278,13 @@
       ],
       "value": ""
     }, {
+      "id": "9dec5a92-39da-4caf-8034-c8cdad8c880b",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Sakramenty święte"
+    }, {
       "id": "091ef7c5-d9c0-4c12-a4d6-05c5ee91e2d1",
       "comment": "",
       "command": "click",
@@ -223,20 +300,12 @@
       ],
       "value": ""
     }, {
-      "id": "31c94fda-c323-4805-8a1a-1ba3c9e88bba",
+      "id": "ef645454-b1b9-47d5-b9a2-00d4c1465a79",
       "comment": "",
-      "command": "doubleClick",
-      "target": "linkText=Duszpasterze",
-      "targets": [
-        ["linkText=Duszpasterze", "linkText"],
-        ["css=li:nth-child(8) > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Duszpasterze')]", "xpath:link"],
-        ["xpath=//section[@id='prawa']/ul/li[8]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/duszpasterze')]", "xpath:href"],
-        ["xpath=//li[8]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Duszpasterze')]", "xpath:innerText"]
-      ],
-      "value": ""
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Duszpasterze"
     }, {
       "id": "fdadc637-0fce-4a9e-a57e-22a486e7f516",
       "comment": "",
@@ -253,6 +322,13 @@
       ],
       "value": ""
     }, {
+      "id": "fc58a88b-f8fa-43ff-9370-ffa87b57bcbf",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Katechezy"
+    }, {
       "id": "ee60ca89-4a78-4a15-9196-a26f7aba2c1a",
       "comment": "",
       "command": "click",
@@ -267,6 +343,13 @@
         ["xpath=//a[contains(.,'Kącik dla dzieci')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "73f2d7a1-abbf-439c-8613-c1adad79c6c4",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Kącik dla dzieci"
     }, {
       "id": "d10437d1-ff5b-4508-bc03-50ed4f7ab9e1",
       "comment": "",
@@ -283,6 +366,13 @@
       ],
       "value": ""
     }, {
+      "id": "f467a319-ce08-481a-8ecd-ff108cb22d75",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Dla młodzieży"
+    }, {
       "id": "382857e9-34d7-4721-b180-b32b5e257974",
       "comment": "",
       "command": "click",
@@ -297,6 +387,13 @@
         ["xpath=//a[contains(.,'Seniorzy')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "5efe6b79-678f-43af-8d81-cd78fadf0921",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Seniorzy"
     }, {
       "id": "6c4d8f92-d4b3-4342-81c8-429facb78239",
       "comment": "",
@@ -313,6 +410,13 @@
       ],
       "value": ""
     }, {
+      "id": "4b632499-d6be-4354-9056-1b77440eea49",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Małżonkowie"
+    }, {
       "id": "afa6203f-9964-4190-ba03-b53560e18627",
       "comment": "",
       "command": "click",
@@ -328,6 +432,13 @@
       ],
       "value": ""
     }, {
+      "id": "a311368d-d564-448c-8ead-aa21b97412bd",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Koncepcja Świątyni i domu parafialnego"
+    }, {
       "id": "22e57989-cbe8-47a9-a13a-94699636862a",
       "comment": "",
       "command": "click",
@@ -342,6 +453,13 @@
         ["xpath=//a[contains(.,'Realizacja budowy')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "c97426f8-246e-46c1-b2c4-8aee7a6af190",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Drodzy Parafianie"
     }, {
       "id": "8a192f13-3c93-4298-a865-cc8df86a44c0",
       "comment": "",
@@ -360,18 +478,10 @@
     }, {
       "id": "cac667fd-319b-45f8-a52e-fc93096e5f52",
       "comment": "",
-      "command": "doubleClick",
-      "target": "linkText=Wsparcie naszej budowy",
-      "targets": [
-        ["linkText=Wsparcie naszej budowy", "linkText"],
-        ["css=ul:nth-child(4) > li:nth-child(3) > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Wsparcie naszej budowy')]", "xpath:link"],
-        ["xpath=//section[@id='prawa']/ul[2]/li[3]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/budowa_wsparcie')]", "xpath:href"],
-        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Wsparcie naszej budowy')]", "xpath:innerText"]
-      ],
-      "value": ""
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[2]/div/section[1]/div/h2",
+      "targets": [],
+      "value": "»   Wsparcie budowy kościoła"
     }, {
       "id": "76cfcc40-8033-443b-a554-039469d2ffe9",
       "comment": "",
