@@ -50,50 +50,50 @@ public class Navigation
         driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[4]/a")).click();
         Assert.assertEquals(driver.getTitle(), "Biuro Parafialne");
 
-        driver.findElement(By.cssSelector("#prawa > ul:nth-child(2) > li:nth-child(5) > a")).click();
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[5]/a")).click();
         Assert.assertEquals(driver.getTitle(), "Historia Parafii");
-/*
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[6]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Rady parafialne");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[7]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Patron - św. Andrzej Apostoł");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[8]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Parafia zbudowana z różnorodnych wspólnot");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[9]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Sakramenty święte");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[10]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Duszpasterze");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[11]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Katechezy");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[12]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Kącik dla dzieci");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[13]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Dla młodzieży");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[14]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Seniorzy");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[1]/li[15]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Małżonkowie");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[2]/li[1]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Koncepcja Świątyni i domu parafialnego");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[2]/li[2]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Drodzy Parafianie");
 
-        driver.findElement(By.xpath("")).click();
-        Assert.assertEquals(driver.getTitle(), "");*/
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/section[2]/ul[2]/li[3]/a")).click();
+        Assert.assertEquals(driver.getTitle(), "Wsparcie budowy kościoła");
+
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/nav/div/a/img")).click();;
+        Assert.assertEquals(driver.getTitle(), "Parafia pw. Andrzeja Apostoła w Toruniu");
     }
 
     @After
